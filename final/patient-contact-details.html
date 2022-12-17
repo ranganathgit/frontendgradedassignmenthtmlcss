@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Contact Details</title>
+  <link rel="stylesheet" href="pharmacy-contact-details.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="second-container">
+      <form action="">
+        <h3>1. Your Contact Details</h3><br>
+        <input type="text" title="name" required spellcheck="true" placeholder="Full Name">
+        <input type="text" title="patientid" required spellcheck="true" placeholder="Patient Id if exists"><br><br>
+        <input type="number" title="contact-number" required spellcheck="true" placeholder="Contact Number">
+        <input type="email" required placeholder="Email Id">
+        <h3>2. Address</h3><br>
+        <input type="text" title="house-no" required spellcheck="true" placeholder="H-No">
+        <input type="text" title="street" required spellcheck="true" placeholder="Street"><br><br>
+        <input type="text" title="area" required spellcheck="true" placeholder="Area"><br><br>
+        <lable id="district-lable" for="district">District</lable><br><br>
+        <select id="district" name="district">
+          <option>Choose</option>
+          <option>Krishna</option>
+          <option>Kolahpur</option>
+          <option>Prakasham</option>
+        </select><br><br>
+        <h3>3. Choose the Test Type (Check atleast one box without fail)</h3><br>
+        <lable>&nbsp;<input type="checkbox" name="option1" value="cbc" />CBC</lable><br>
+        <lable>&nbsp;<input type="checkbox" name="option2" value="completeurine" />Complete
+          Urine</lable><br>
+        <lable>&nbsp;<input type="checkbox" name="option3" value="lipidprofile" />Lipid
+          Profile</lable><br>
+        <lable>&nbsp;<input type="checkbox" name="option4" value="tsh" />Thyroid Stimulating
+          Hormone(TSH)
+        </lable><br>
+        <lable>&nbsp;<input type="checkbox" name="option5" value="glucosetest" />Glucose Test</lable><br>
+        <h3>4. Do you want a hard copy of the report also?</h3><br>
+        <lable>&nbsp;<input type="radio" name="report-copy" value="yes" />Yes</lable><br>
+        <lable>&nbsp;<input type="radio" name="report-copy" value="no" />No</lable>
+        <h3>5. Select Your Comfortable Date and Time</h3><br>
+        <input type="date" /><br>
+        <input type="time">
+        <input id="resetbutton" type="reset" />
+        <input id="submitbutton" type="submit" />
+      </form>
+      <img class="labtest-images" src="Images/Lab-Test/lab-test.jpg">
+    </div>
+  </div>
+</body>
+
+</html>

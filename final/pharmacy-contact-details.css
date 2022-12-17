@@ -1,0 +1,74 @@
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+  width: 200px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  height: 30px;
+  font-size: large;
+  margin-left: 5px;
+}
+
+#district {
+  width: 200px;
+  background-color: white;
+  height: 30px;
+}
+
+#district-lable {
+  font-weight: bold;
+}
+
+#container {
+  padding: 50px;
+  background-color: white;
+  border: 5px solid black;
+  margin: 100px 180px;
+  height: 450px;
+}
+
+#second-container {
+  width: 1000px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  padding-right: 0;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+img {
+  position: fixed;
+  top: 145px;
+  right: 300px;
+  width: 450px;
+  height: 450px;
+}
+
+#resetbutton {
+  position: fixed;
+  bottom: 220px;
+  width: 100px;
+  left: 500px;
+  font-size: large;
+  background-color: rgb(186, 127, 240);
+  color: white;
+  border-radius: 5px;
+}
+
+#submitbutton {
+  position: fixed;
+  bottom: 220px;
+  left: 620px;
+  width: 100px;
+  font-size: large;
+  background-color: rgb(186, 127, 240);
+  color: white;
+  border-radius: 5px;
+}
